@@ -1,0 +1,11 @@
+ktor:
+    application:
+        modules:
+            - tk.vhhg.ApplicationKt.module
+    deployment:
+        port: 3197
+jwt:
+  issuer: "http://vhhg.tk:3197"
+  domain: "http://vhhg.tk:3197"
+  audience: "instruisto-users"
+  realm: "instruisto"
